@@ -26,12 +26,18 @@
   <!-- Tweaks for older IEs-->
   <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
-<!--[if lt IE 9]>
+
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <!--[if lt IE 9]>
 <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
 <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
 </head>
 <!-- body -->
-
+<script>
+  const data=[{project:"olx website",image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTt2X6nhMGODOMc_kgZlIqQzpA5WCITXxxLCw&usqp=CAU",id:1,description:"This is a olx webiste , in which i use reactjs and other advance technologies"}]
+</script>
 <body class="main-layout">
   <!-- loader  -->
   <div class="loader_bg">
@@ -39,24 +45,25 @@
   </div>
   <!-- end loader -->
   <!-- header -->
-  <!-- <header>
-    <!-- header inner -->
-    <!-- <div class="header-top">
-      <div class="header">
-        <div class="container-fluid">
+  
+  <header>
+    
+     <div class="header-top" style="background-color: white;">
+      <div class="header" style="background-color: white;">
+        <div class="container-fluid" style="background-color: white;">
           <div class="row">
             <div class="col-xl-2 col-lg-4 col-md-4 col-sm-3 col logo_section">
               <div class="full">
                 <div class="center-desk">
                   <div class="logo">
-                    <!-- <a href="index.html"><img src="images/logo.png" alt="#" /></a> -->
-                    <!-- <h1>MSK DEVELOPERS</h1>
+                    <!-- <a href="index.html"><img src="images/logo.png" alt="#" /></a>  -->
+                    <h1>MSK DEVELOPERS</h1>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="col-xl-10 col-lg-8 col-md-8 col-sm-9">
-              <div class="header_information">
+            <div class="col-xl-10 col-lg-8 col-md-8 col-sm-9" >
+              <div class="header_information" >
                <div class="menu-area">
                 <div class="limit-box">
                   <nav class="main-menu ">
@@ -72,14 +79,16 @@
                  </div>
                </div> 
                <div class="mean-last">
-                       <a href="#"><img src="images/search_icon.png" alt="#" /></a> <a href="#">login/sing up</a></div>              
+           <a href="#" style="font-weight:bold;">login/sing up</a></div>              
              </div>
            </div>
          </div>
        </div>
-     </div> --> 
-     <!-- end header inner -->
+     </div> 
 
+    </header>
+     <!-- end header inner -->
+     
      <!-- end header -->
      <section class="slider_section">
       <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -94,13 +103,15 @@
             <div class="container-fluid padding_dd">
               <div class="carousel-caption">
                 <div class="row">
-                  <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12">
+                  <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 " style="margin-bottom:35px;">
                     <div class="text-bg">
                       <h1 style="color:blueviolet;font-weight:bold;">PROFESSIONAL jamstack DEVELOPER </h1>
                       <!-- <p>TOP NOTCH COURSES FROM TRAINED PROFESSIONALS</p> -->
-                      <a href="#"  style="background-color:yellow;color:blueviolet;font-size: 20px;font-weight: bold;">Read more</a> <a href="#" style="background-color:yellow;color:blueviolet;font-size: 20px;font-weight: bold;">get a qoute</a>
+                      <a href="#"  style="background-color:yellow;color:blueviolet;font-size:16;font-weight: bold;">Read more</a> 
+                      <a href="#" style="background-color:yellow;color:blueviolet;font-size:16;font-weight: bold;">get a qoute</a>
                     </div>
                   </div>
+
                   <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12">
                     <div class="images_box">
                       <figure><img src="images/img2.png"></figure>
@@ -110,6 +121,7 @@
               </div>
             </div>
           </div>
+        
           <!-- <div class="carousel-item">
 
             <div class="container-fluid padding_dd">
@@ -197,8 +209,8 @@
 <div id="about" class="about">
   <div class="container">
     <div class="row">
-      <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-        <div class="about-box">
+      <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 ">
+        <div class="about-box" style="text-align: center;">
           <h2>WHO <strong style="color:blueviolet"> AM I ?</strong></h2>
           <p > I am A mern stack developer , and have a experience on web app from more than 1 year, i am a also 
             a AWS developer with have a hands of experties on CDK and other aws services. </p>
@@ -302,13 +314,31 @@
 
 
 <!-- Courses -->
-<div id="courses" class="Courses my-5">
+<div id="courses" class="Courses my-5 " >
   <div class="container-fluid padding_left3">
     <div class="row">
       <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
         <div class="box_bg">
           <div class="box_bg_img">
             <div class="row">
+              <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                <div class="box_my">
+                  <figure><img src="images/my1.jpg"></figure>
+                  <div class="overlay">
+                    <h3>Data Structures</h3>
+                    <p>It is a long established fact that a reader will be distracted by the readable content o</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                <div class="box_my">
+                  <figure><img src="images/my1.jpg"></figure>
+                  <div class="overlay">
+                    <h3>Data Structures</h3>
+                    <p>It is a long established fact that a reader will be distracted by the readable content o</p>
+                  </div>
+                </div>
+              </div>
               <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
                 <div class="box_my">
                   <figure><img src="images/my1.jpg"></figure>
@@ -353,12 +383,12 @@
         </div>
       </div>
       <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12  border_right">
-        <div class="box_text">
-          <div class="titlepage">
+        <div class="box_text" style="text-align: center;">
+          <div class="titlepage " style="text-align: center;">
             <h2>SKILLS <strong class="yellow"> MASTER </strong></h2>
           </div>
-          <!-- <p style="font-size: smaller;">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p> -->
-          <a href="Javascript:void(0)">Read more</a>
+          <p style="font-size:medium;">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+          <div style="display: flex;justify-content: center;"><a href="Javascript:void(0)">Read more</a></div>
         </div>
       </div> 
     </div>
@@ -424,17 +454,106 @@
 
 <!-- skills portion  -->
 
-
+<div style="height:20px;color:white">space</div>
 <div class="skills">
        
         <div class="skills_first_heading_div"><h1 style="font-weight: bold;font-size:25px;color: blueviolet;"> SKILLS WHICH I MASTER </h1></div>
-         
-        <div style="display: flex;justify-content:space-around;flex-wrap: wrap;">
-           <div style="width:300px;height:100px;border:2px solid green">BOX1</div>
-           <div style="width:300px;height:100px;border:2px solid green">BOX1</div>
-           <div style="width:300px;height:100px;border:2px solid green">BOX1</div>
+         <div class="container">
+              <div class="row ">
 
-         </div>
+            <!-- first card -->
+                <div class="col-12 col-md-4 col-lg-4 py-5">
+                  <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="..." alt="Card image cap">
+                    <div class="card-body">
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                        content.</p>
+                    </div>
+                  </div>
+                </div>
+           <!-- end first card -->
+
+
+            <!-- first card -->
+            <div class="col-12 col-md-4 col-lg-4 py-5">
+              <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="..." alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                    content.</p>
+                </div>
+              </div>
+            </div>
+       <!-- end first card -->
+         
+           <!-- first card -->
+           <div class="col-12 col-md-4 col-lg-4 py-5">
+            <div class="card" style="width: 18rem;">
+              <img class="card-img-top" src="..." alt="Card image cap">
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                  content.</p>
+              </div>
+            </div>
+          </div>
+     <!-- end first card -->
+       
+
+      <!-- first card -->
+      <div class="col-12 col-md-4 col-lg-4 py-5">
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="images/Title.jpg" style="height:250px;width:1200px" alt="Card image cap">
+          <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+          </div>
+        </div>
+      </div>
+ <!-- end first card -->
+    <!-- first card -->
+    <div class="col-12 col-md-4 col-lg-4 py-5">
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="images/Title.jpg" alt="Card image cap">
+        <div class="card-body">
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            content.</p>
+        </div>
+      </div>
+    </div>
+<!-- end first card -->
+  <!-- first card -->
+  <div class="col-12 col-md-4 col-lg-4 py-5">
+    <div class="card" style="width: 18rem;">
+      <img class="card-img-top" src="images/Title.jpg" alt="Card image cap">
+      <div class="card-body">
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+          content.</p>
+      </div>
+    </div>
+  </div>
+<!-- end first card -->
+
+             
+
+                    
+                    
+ 
+                    </div>
+
+              </div>
+                   
+
+              
+          </div>
+       
+      
+     
+
+          
+
+        
+
+         
 
 </div>
 
@@ -659,5 +778,7 @@ function initMap() {
 
 
 </body>
-
+<!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> -->
 </html>

@@ -105,8 +105,8 @@
      transition: all .3s ease-in-out;
 }
  img {
-     max-width: 100%;
-     height: auto;
+     max-width:100%;
+     height:auto;
 }
  :focus {
      outline: 0;
@@ -1674,7 +1674,7 @@ padding-bottom: 20px;
 /* skills portion design css */
 
 .skills{
-    background-color:white;
+    background-color:white;margin-bottom:20px;
 
 }
 .skills_first_heading_div{display: flex;justify-content: center;color:"yellow"
